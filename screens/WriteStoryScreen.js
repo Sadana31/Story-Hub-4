@@ -1,10 +1,7 @@
 import * as React from 'react';
 import { Text, View, TextInput, StyleSheet } from 'react-native';
 import { Header } from 'react-native-elements';
-import {
-  TouchableHighlight,
-  TouchableOpacity,
-} from 'react-native-gesture-handler';
+import { TouchableOpacity } from 'react-native-gesture-handler';
 
 export default class WriteStoryScreen extends React.Component {
   render() {
