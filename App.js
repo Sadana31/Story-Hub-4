@@ -7,12 +7,13 @@ import WriteStoryScreen from './screens/WriteStoryScreen';
 
 export default class App extends React.Component {
   render() {
-    return <AppContainer />;
+    return(
+       <AppContainer />
+    ) 
   }
 }
 
-const TabNavigator = createBottomTabNavigator(
-  {
+const TabNavigator = createBottomTabNavigator({
     ReadStory: { screen: ReadStoryScreen },
     WriteStory: { screen: WriteStoryScreen },
   },
