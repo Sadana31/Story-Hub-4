@@ -13,7 +13,7 @@ export default class ReadStoryScreen extends React.Component {
 
 const styles = StyleSheet.create({
   displayText: {
-    fontSize: 15,
+    fontSize: 20,
     textDecorationLine: 'underline',
     fontWeight: 'bold',
     backgroundColor: "yellow"
