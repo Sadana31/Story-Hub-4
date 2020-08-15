@@ -58,7 +58,7 @@ export default class WriteStoryScreen extends React.Component {
           value={this.state.author}></TextInput>
         <TextInput
           style={styles.content}
-          placeholder="Write Story"
+          placeholder="Write your Story here"
           multiline={true}
           onChangeText={(text) => {
             this.setState({ story: text });
