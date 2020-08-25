@@ -18,8 +18,8 @@ export default class WriteStoryScreen extends React.Component {
 
   submitStory=()=>{
     db.collection("Stories").add({
-      "Title of the Story": this.state.title,
-      "Author of the Story": this.state.author,
+      "TitleoftheStory": this.state.title,
+      "AuthoroftheStory": this.state.author,
       "Story": this.state.story,
     })
     this.setState({
@@ -101,7 +101,7 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
   },
   inputBox: {
-    width: 350,
+    width: '80%',
     height: 70,
     borderWidth: 2,
     fontSize: 20,
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
   content: {
     backgroundColor: 'white',
     marginTop: 30,
-    width: 350,
+    width: '80%',
     fontWeight: 'bold',
     color: '#DF3A01',
     height: 350,
